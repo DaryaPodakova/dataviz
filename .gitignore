@@ -1,0 +1,153 @@
+/ai_docs/
+# ================================================
+# PYTHON ENVIRONMENTS & CACHE
+# ================================================
+data_folder/
+z_piece_of_sheet_tests_how_is_it live?
+trash/
+etl_old/
+exploration/
+# виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg
+
+# ================================================
+# IDE & EDITORS
+# ================================================
+
+# vscode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# pycharm
+.idea/
+*.swp
+*.swo
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# vim
+*~
+.*.swp
+.*.swo
+
+# ================================================
+# OPERATING SYSTEMS
+# ================================================
+
+# macos
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# windows
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# linux
+*~
+
+# ================================================
+# DATABASES & LOGS
+# ================================================
+
+# sqlite
+*.db
+*.sqlite
+*.sqlite3
+
+# logs
+*.log
+logs/
+log/
+
+# ================================================
+# PROJECT SPECIFIC
+# ================================================
+
+# секреты и конфиги
+.env
+.env.local
+.env.*.local
+secrets/
+config/local.py
+
+# временные файлы
+temp/
+tmp/
+*.tmp
+
+# тесты и покрытие
+.coverage
+.pytest_cache/
+htmlcov/
+
+# документация
+docs/_build/
+
+# claude и mcp кэш (оставляем структуру)
+.claude/cache/
+.claude/temp/
+
+# ================================================
+# DOCKER & CONTAINERS
+# ================================================
+
+# docker
+.dockerignore
+
+# ================================================
+# DATA & MODELS
+# ================================================
+
+# большие файлы данных
+*.csv
+*.parquet
+*.pkl
+*.joblib
+data/raw/
+data/processed/
+models/checkpoints/-info/
+.installed.cfg
+*.eggl0_steam_api_raw_*.json
+l0_steam_api_raw_*.json
+l0_steam_api_raw_*.json
